@@ -1,10 +1,8 @@
-const uniqueRandomArray = require('unique-random-array');
-const quotes = require('./quotes.json');
+import uniqueRandomArray from 'unique-random-array';
+import quotes from './quotes.json';
 
 const getRandomQuote = uniqueRandomArray(quotes);
 
-function randomQuotes() {
+export default function randomQuotes() {
     return getRandomQuote();
 }
-
-module.exports = randomQuotes;

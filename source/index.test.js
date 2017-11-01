@@ -1,5 +1,5 @@
-const assert = require('assert');
-const randomQuotes = require('./index');
+import assert from 'assert';
+import randomQuotes from './index';
 
 describe('randomQuotes()', function() {
     it('should return a quote', function() {
