@@ -6,7 +6,8 @@
   "scripts": {
     "commit": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "mocha source/*.test.js"
+    "test": "mocha source/*.test.js",
+    "test:watch": "npm test -- -w"
   },
   "repository": {
     "type": "git",
