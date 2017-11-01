@@ -5,8 +5,8 @@
   "main": "source/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "mocha source/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
+    "mocha": "4.0.1",
     "semantic-release": "^8.2.0"
   },
   "config": {
