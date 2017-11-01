@@ -20,6 +20,11 @@ randomQuote();
 //  }
 ```
 
+## API
+
+- **`randomQuote()`**
+  - returns a random quote object with the following keys: `author`, `body`
+
 ## License
 
 MIT License
