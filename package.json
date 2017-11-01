@@ -1,15 +1,16 @@
 {
   "name": "random-quotes",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Get random quotes",
   "main": "source/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arnellebalane/random-quotes.git"
+    "url": "https://github.com/arnellebalane/random-quotes.git"
   },
   "keywords": [
     "quotes"
@@ -22,7 +23,8 @@
   "homepage": "https://github.com/arnellebalane/random-quotes#readme",
   "devDependencies": {
     "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.1.0"
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "^8.2.0"
   },
   "config": {
     "commitizen": {
