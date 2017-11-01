@@ -1,0 +1,22 @@
+{
+  "name": "random-quotes",
+  "version": "1.0.0",
+  "description": "Get random quotes",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnellebalane/random-quotes.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Arnelle Balane <arnellebalane@gmail.com> (https://arnellebalane.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnellebalane/random-quotes/issues"
+  },
+  "homepage": "https://github.com/arnellebalane/random-quotes#readme"
+}
