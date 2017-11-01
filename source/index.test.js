@@ -1,5 +1,5 @@
 import assert from 'assert';
-import randomQuotes from './index';
+import randomQuotes, { byAuthor } from './index';
 
 describe('randomQuotes()', function() {
     it('should return a quote by default', function() {
@@ -15,6 +15,17 @@ describe('randomQuotes()', function() {
         quotes.forEach(quote => {
             assert(quote.body);
             assert(quote.author);
+        });
+    });
+});
+
+describe('randomQuotes.byAuthor(author)', function() {
+    it('should return array of string quote bodies by given author', function() {
+        const quotes = byAuthor('Unknown');
+        assert.equal(quotes.constructor, Array);
+
+        quotes.forEach(quote => {
+            assert.equal(typeof quote, 'string');
         });
     });
 });

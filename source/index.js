@@ -14,3 +14,9 @@ export default function randomQuotes(count=1) {
     }
     return quotesArray;
 }
+
+export function byAuthor(author) {
+    return quotes
+        .filter(quote => quote.author === author)
+        .map(quote => quote.body);
+}
