@@ -4,6 +4,7 @@
   "description": "Get random quotes",
   "main": "source/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/arnellebalane/random-quotes/issues"
   },
-  "homepage": "https://github.com/arnellebalane/random-quotes#readme"
+  "homepage": "https://github.com/arnellebalane/random-quotes#readme",
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
