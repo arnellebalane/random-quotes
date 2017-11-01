@@ -22,6 +22,9 @@
     "url": "https://github.com/arnellebalane/random-quotes/issues"
   },
   "homepage": "https://github.com/arnellebalane/random-quotes#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  },
   "devDependencies": {
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
