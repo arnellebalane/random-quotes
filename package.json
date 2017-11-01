@@ -2,7 +2,7 @@
   "name": "random-quotes",
   "version": "0.0.0-development",
   "description": "Get random quotes",
-  "main": "source/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
