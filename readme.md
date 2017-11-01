@@ -10,12 +10,22 @@ $ npm install --save random-quotes
 
 ## Usage
 
+NodeJS:
+
 ```js
 const randomQuotes = require('random-quotes');
+```
 
+Browsers:
+
+```html
+<script src="node_modules/random-quotes/dist/index.umd.min.js"></script>
+```
+
+```js
 randomQuotes();
 //  {
-//    body: 'It's not poisonous...',
+//    body: 'It\'s not poisonous...',
 //    author: 'Famous Last Words'
 //  }
 ```
